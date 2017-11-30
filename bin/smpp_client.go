@@ -1,12 +1,3 @@
-// Copyright 2015 go-smpp authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
-// SMPP client for the command line.
-//
-// We bind to the SMSC as a transmitter, therefore can do SubmitSM
-// (send Short Message) or QuerySM (query for message status). The
-// latter may not be available depending on the SMSC.
 package main
 
 import (
